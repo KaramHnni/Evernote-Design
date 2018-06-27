@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    position:relative;
+    font-family:'Poppins',serif;
+}
+.page1{
+    position:relative;
+    min-height:100vh;
+    background:white;
+    padding-bottom:100px;
+
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(61, 60, 60, 0.288);
+    padding-top:30px;
+    padding-bottom:30px;
+    align-items: center;
+    background:white;
+    width:100%;
+    flex-wrap:wrap;
+    
+    
+}
+.left-head{
+            display:flex;
+}
+.left-head img{
+    width:40%;
+    height:35px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+nav{
+    margin-left:5%;
+    margin-top:2%;
+    
+}
+.main-ul{
+    display:flex;
+
+}
+.main-ul li a {
+    display:inline-block;
+    position:relative;
+    color:black;
+    font-weight:200;
+    font-size:14px;
+    text-align:center;
+    
+    width:120px;
+}
+.main-ul li a:hover{
+    color:rgb(45, 190, 96);
+}
+.main-ul li .expl::after{
+            content:'▼';
+            display:inline-block;
+            position:absolute;
+            top:40%;
+            right:15%;
+            font-size:8px;
+
+}
+
+
+.inside-ul{
+    
+    
+    position:absolute;
+    top:150px;
+    padding-top:50px;
+    width:100%;
+    left:0;
+    display:flex;
+    justify-content: space-evenly;
+    background:white;
+    display:none;
+    padding-bottom:30px;
+    
+    
+}
+
+.inside-ul li a{
+    text-align:left;
+    padding-top:10px;
+    padding-left:5px;
+    width:100%;
+   
+}
+.inside-ul li a:hover{
+    color:rgb(45, 190, 96);
+
+
+}
+
+.right-head{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width:25%;
+    padding-top:20px;
+}
+.log{
+    color:black;
+    font-size:14px;
+    margin-right:5%;
+}
+.log:hover{
+    color:rgb(45, 190, 96);
+    
+}
+.try{
+    display:inline-block;
+    color:black;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:3px;
+    border:2px solid black;
+    
+    font-size:14px;
+}
+.try:hover{
+    color:rgb(45, 190, 96);
+    border-color:rgb(45, 190, 96);
+
+}
+main{
+    background:white;
+    display:flex;
+    justify-content: space-around;
+    margin-top:8%;
+}
+.left-main{
+    width:40%;
+    margin-top:5%;
+    
+    padding-top:45px;
+    
+    padding-right:30px;
+    border-right:1px solid rgba(61, 60, 60, 0.288);
+
+}
+.left-main .title{
+        font-weight:900;
+        font-size:60px;
+        display:block;
+}
+.right-main{
+    width:35%;
+    margin-top:2.5%;
+    
+}
+.right-main .Sign-up{
+    font-weight:800;
+    font-size:25px;
+    display:block;
+}
+.right-main .google{
+    color:black;
+    border-radius:2px;
+    font-weight:600;
+    font-size:18px;
+    display:inline-block;
+    padding:3px 0px;
+    width:100%;
+    text-align:center;
+    border:1px solid  rgba(131, 126, 126, 0.288);
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+.or{
+    display:flex;
+    align-items:center;
+    
+}
+hr{
+    width:45%;
+    background:rgba(131, 126, 126, 0.288);
+    height:1px;
+    border:none;
+
+}
+.or span{
+    margin-left:5%;
+    margin-right:5%;
+    color:rgba(131, 126, 126, 0.288);
+}
+form input{
+    display:block;
+    background:rgba(131, 126, 126, 0.288);
+    border:none;
+    border-radius:2px;
+    width:98%;
+    padding-top:3%;
+    padding-bottom:3%;
+    margin-top:5%;
+    padding-left:2%;
+    font-weight:600;
+    
+
+}
+form input::placeholder{
+    
+    font-family:'Poppins',serif;
+    font-size:14px;
+    color:#999999;
+}
+.by-clicking{
+    width:70%;
+    display:block;
+    margin-top:5%;
+    font-size:13px;
+    color: rgba(131, 126, 126, 0.815);
+
+
+}
+.by-clicking span {
+    color:rgba(20, 20, 75, 0.705);
+}
+form .sub{
+            font-size:18px;
+            font-weight:600;
+            color:white;
+            background:rgb(45, 190, 96);
+            display:block;
+            width:100%;
+            text-align:center;
+            padding-top:20px;
+            padding-bottom:20px;
+            border-radius:3px;
+            cursor: pointer;
+
+}
+form .sub:hover{
+    background:rgb(12, 209, 94);
+}
+
+
+

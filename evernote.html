@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Get organized. Work smarter .R</title>
+        <meta charset="UTF-8">
+        <link href="evernote.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <div class="page1">
+            <header>
+                <div class="left-head">
+                    <img src="1280px-Evernote-logo.svg.png">
+                    <nav>
+                        <ul class="main-ul">
+                            <li><a href="#" class="expl" >Explore</a>
+                                <ul class="inside-ul">
+                                    <li>Plans
+                                        <ul class="aside-ul">
+                                            <li><a href="#">Getting started</a></li>
+                                            <li><a href="#">Basic</a></li>
+                                            <li><a href="#">Premium</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li>Buissness
+                                            <ul class="aside-ul">
+                                                <li><a href="#">Features</a></li>
+                                                <li><a href="#">Spaces</a></li>
+                                                <li><a href="#">Use cases</a></li>
+                                                <li><a href="#">Customer stories</a></li>
+                                                <li><a href="#">Contact sales</a></li>
+    
+                                            </ul>
+                                        </li>
+                                        <li>Discover
+                                                <ul class="aside-ul">
+                                                    <li><a href="#">Blog</a></li>
+                                                    <li><a href="#">Community</a></li>
+                                                    <li><a href="#">Certified Consultants</a></li>
+                                                    <li><a href="#">Events</a></li>
+        
+                                                </ul>
+                                            </li>
+                                            <li>Get support
+                                                    <ul class="aside-ul">
+                                                        <li><a href="#">Help & Learning</a></li>
+                                                        <li><a href="#">Support</a></li>
+                                                        <li><a href="#">Forums</a></li>
+            
+                                                    </ul>
+                                                </li>
+                                </ul>
+                            
+                            </li>
+                            <li><a href="#">Web Clipper</a></li>
+                            <li><a href="#">Download App</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+                <div class="right-head">
+                    <a href="" class="log">Log in</a>
+                    <a href="" class="try">Try Evernote Buissness</a>
+                </div>
+
+            </header>
+            <main>
+                <div class="left-main">
+                    <span class="title">Meet Evernote, your second brain</span>
+                    <span class="description">Capture, organize, and share notes from anywhere. Your best ideas are always with you and always in sync.</span>
+                </div>
+                <div class="right-main">
+                    <span class="Sign-up">Sign Up for Free</span>
+                    <a href="#" class="google">Sign Up free with Google</a>
+                    <div class="or">
+                        <hr/>
+                        <span>Or</span>
+                        <hr/>
+
+                    </div>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <span class="by-clicking">By clicking Sign up, I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span>
+                        <input type="submit" class="sub" value="Sign Up for free">
+
+                    </form>
+
+                </div>
+            </main>
+        </div>
+        <script>
+            var link=document.querySelector('.expl');
+            var drop=document.querySelector('.inside-ul');
+            link.addEventListener("click",function(event){
+                drop.style.display="flex";
+                
+
+            });
+            document.body.addEventListener("click",function(event){
+                if(event.target!=link){
+                    drop.style.display="none";
+                }
+            });
+        </script>
+    </body>
+</html>
